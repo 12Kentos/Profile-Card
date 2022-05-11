@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  font-family: Kumbh Sans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #19a1ae;
+}
+
+.profile-card-container {
+  position: relative;
+  width: 35rem;
+  height: 37.4rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 5rem rgba(0, 0, 0, 0.25);
+}
+
+.card-background-image {
+  border-radius: 1.5rem 1.5rem 0 0;
+  height: 14rem;
+}
+
+.card-background-image-container {
+  height: 14rem;
+}
+
+.profile-picture-container {
+  position: absolute;
+  top: 23%;
+  /* transform: translateY(-50%); */
+}
+
+.profile-picture {
+  border-radius: 50rem;
+  border: 0.5rem solid #fff;
+}
+
+.profile-information {
+  border-bottom: 0.1rem solid #e8e9ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 14.5rem;
+  padding-top: 7.2rem;
+  padding-bottom: 2.4rem;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.23rem;
+  color: #2e3349;
+  font-style: normal;
+  margin-bottom: 1.3rem;
+}
+
+.profile-age {
+  font-weight: 400;
+  color: #6b7082;
+  /* margin-left: 0.85rem; */
+}
+
+.profile-city {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.73rem;
+  color: #6b7082;
+  padding-bottom: 2.8rem;
+}
+
+.profile-stats {
+  width: 24.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-followers,
+.profile-likes,
+.profile-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-style {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.23rem;
+  color: #2e3349;
+  text-align: center;
+  margin-bottom: 0.9rem;
+  margin-top: 2.4rem;
+}
+
+.stats-text-style {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.24rem;
+  letter-spacing: 0.15rem;
+  color: #6b7082;
+  margin-bottom: 2.7rem;
+}
